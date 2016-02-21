@@ -6,7 +6,7 @@ This application is being built as a productivity improvement application for *S
 
 * A map identifying the main SwimMetro office, as well as, the locations of all of their current customers.  Addresses are included for each map annotation.
 
-* A form alllowing employees to submit maintenance requests for deficiencies/issues at their assigned employment location.
+* A form alllowing employees to submit maintenance requests for deficiencies/issues at their assigned employment location.  Data from these requests is stored in a Parse data store.
 
 
 ##Installation or Getting Started Instructions
@@ -14,7 +14,7 @@ Clone the GitHub Repository.  Run the application via the XCode simulator or an 
 
 
 ##Usage
-Pool Manager requires a *SwimMetro Management, Inc.* user account.  Accounts can be created by visiting the SwimMetro Management website at [www.swimmetro.com](http://www.swimmetro.com).  Users must be employees to be able to access the application.  Non-employees will not be able to access the application.
+Pool Manager requires a *SwimMetro Management, Inc.* user account.  Accounts can be created by visiting the SwimMetro Management website at [www.swimmetro.com](http://www.swimmetro.com).  User authentication will be validate against the current SwimMetro employee database.  Users must be active employees to be able to access the application.  Non-employees and/or guests will not be able to access the application and will receive an error message.
 
 To preview the application, please use the login credentials below.
 
@@ -22,6 +22,7 @@ To preview the application, please use the login credentials below.
 
 * Password:  **Udacity2016!**
 
+When submitting a maintenance request, data will be loaded into a Parse data store and a success message will be returned to the application.
 
 ##License
 
