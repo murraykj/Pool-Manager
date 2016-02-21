@@ -4,13 +4,13 @@
 ##Description
 This application is being built as a productivity improvement application for *SwimMetro Management, Inc*.  This is the first version of the application and, as a result, includes limited functionality.  The initial functionality consists of the following:
 
-* A map identifying the main SwimMetro office, as well as, the locations of all of their current customers.  Addresses are included for each map annotation
+* A map identifying the main SwimMetro office, as well as, the locations of all of their current customers.  Addresses are included for each map annotation.
 
 * A form alllowing employees to submit maintenance requests for deficiencies/issues at their assigned employment location.
 
 
 ##Installation or Getting Started Instructions
-Clone the GitHub Repository.
+Clone the GitHub Repository.  Run the application via the XCode simulator or an iPhone.
 
 
 ##Usage
@@ -46,7 +46,9 @@ The following enhancements are targeted to be delivered in mid-2016.  Placeholde
 
 * The ability to view messages posted on the employee message board.  Currently these messages are only accessible via the SwimMetro Management website at [www.swimmetro.com](http://www.swimmetro.com).
 
-* The addition of a settings page that will allow the user to set their default pool.  THis default will then be used to pre-select items in the various request forms.  It will also be used to annotate the user's preferred pool in the Customer Locations feature.
+* The addition of a settings page that will allow the user to set their default pool.  This default will then be used to pre-select items in the various request forms.  It will also be used to annotate the user's preferred pool in the Customer Locations area.
+
+* The application will be updated to access APIs from SwimMetro.  Currently, only user authentication is done via SwimMetro.  With the pending retirement of the Parse application, Current Parse API calls will be ported to SwimMetro.
 
 If you have suggestions for additional features, please email me at [murraykj@ameritech.net](murraykj@ameritech.net).
 
