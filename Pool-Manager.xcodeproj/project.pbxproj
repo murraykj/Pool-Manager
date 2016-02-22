@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE3506B21C7A93E300F3FF9E /* CoreDataStackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3506B11C7A93E300F3FF9E /* CoreDataStackManager.swift */; };
 		EECDFFD41C5D777A00D4C503 /* PMAcmeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECDFFD31C5D777A00D4C503 /* PMAcmeAPI.swift */; };
 		EECDFFD61C5DD09900D4C503 /* PMConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECDFFD51C5DD09900D4C503 /* PMConstants.swift */; };
 		EECDFFE11C5E991400D4C503 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECDFFE01C5E991400D4C503 /* LoginViewController.swift */; };
@@ -16,7 +17,6 @@
 		EECDFFED1C6BDAFD00D4C503 /* MaintenanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECDFFEC1C6BDAFD00D4C503 /* MaintenanceViewController.swift */; };
 		EECDFFEF1C6C3D9A00D4C503 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EECDFFEE1C6C3D9A00D4C503 /* MapKit.framework */; };
 		EECDFFF11C6C431400D4C503 /* UpcomingFeaturesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECDFFF01C6C431400D4C503 /* UpcomingFeaturesViewController.swift */; };
-		EECDFFF31C6FC7CB00D4C503 /* CoreDataStackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECDFFF21C6FC7CB00D4C503 /* CoreDataStackManager.swift */; };
 		EECDFFF61C6FEDAA00D4C503 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EECDFFF41C6FEDAA00D4C503 /* Model.xcdatamodeld */; };
 		EED288ED1C46CBC000F7CBDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED288EC1C46CBC000F7CBDB /* AppDelegate.swift */; };
 		EED288F21C46CBC000F7CBDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EED288F01C46CBC000F7CBDB /* Main.storyboard */; };
@@ -28,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE3506B11C7A93E300F3FF9E /* CoreDataStackManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStackManager.swift; sourceTree = "<group>"; };
 		EECDFFD31C5D777A00D4C503 /* PMAcmeAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PMAcmeAPI.swift; sourceTree = "<group>"; };
 		EECDFFD51C5DD09900D4C503 /* PMConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PMConstants.swift; sourceTree = "<group>"; };
 		EECDFFE01C5E991400D4C503 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -37,7 +38,6 @@
 		EECDFFEC1C6BDAFD00D4C503 /* MaintenanceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaintenanceViewController.swift; sourceTree = "<group>"; };
 		EECDFFEE1C6C3D9A00D4C503 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		EECDFFF01C6C431400D4C503 /* UpcomingFeaturesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpcomingFeaturesViewController.swift; sourceTree = "<group>"; };
-		EECDFFF21C6FC7CB00D4C503 /* CoreDataStackManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreDataStackManager.swift; path = "../../../4-iOS Persistence and Core Data/Virtual Tourist/VirtualTourist/VirtualTourist/CoreDataStackManager.swift"; sourceTree = "<group>"; };
 		EECDFFF51C6FEDAA00D4C503 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		EED288E91C46CBC000F7CBDB /* Pool-Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pool-Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EED288EC1C46CBC000F7CBDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -103,7 +103,6 @@
 		EED288EB1C46CBC000F7CBDB /* Pool-Manager */ = {
 			isa = PBXGroup;
 			children = (
-				EECDFFF21C6FC7CB00D4C503 /* CoreDataStackManager.swift */,
 				EECDFFD81C5E960C00D4C503 /* Controller */,
 				EECDFFD71C5E960200D4C503 /* View */,
 				EED289011C46CC4500F7CBDB /* Model */,
@@ -111,6 +110,7 @@
 				EED288F61C46CBC000F7CBDB /* Assets.xcassets */,
 				EED288F81C46CBC000F7CBDB /* LaunchScreen.storyboard */,
 				EED288FB1C46CBC000F7CBDB /* Info.plist */,
+				EE3506B11C7A93E300F3FF9E /* CoreDataStackManager.swift */,
 			);
 			path = "Pool-Manager";
 			sourceTree = "<group>";
@@ -207,8 +207,8 @@
 				EECDFFED1C6BDAFD00D4C503 /* MaintenanceViewController.swift in Sources */,
 				EECDFFD41C5D777A00D4C503 /* PMAcmeAPI.swift in Sources */,
 				EECDFFE91C6458A100D4C503 /* MenuTableViewController.swift in Sources */,
+				EE3506B21C7A93E300F3FF9E /* CoreDataStackManager.swift in Sources */,
 				EECDFFF61C6FEDAA00D4C503 /* Model.xcdatamodeld in Sources */,
-				EECDFFF31C6FC7CB00D4C503 /* CoreDataStackManager.swift in Sources */,
 				EED289051C46CD3600F7CBDB /* PMParse.swift in Sources */,
 				EED289031C46CC7100F7CBDB /* PMClient.swift in Sources */,
 				EED288ED1C46CBC000F7CBDB /* AppDelegate.swift in Sources */,
