@@ -64,7 +64,7 @@ class MaintenanceViewController: UIViewController, UIPickerViewDelegate, UIPicke
             dispatch_async(dispatch_get_main_queue()) {
             
               // Set alert title and text
-              let alertTitle = "Success!"
+              let alertTitle = "Thank You!"
               let alertMessage = "Your maintenance request has been submitted."
               
               // Display alert message
